@@ -1,0 +1,7 @@
+[server]
+port = 8000
+request_log_directory = "logs"
+whitelisted_domains = ["localhost", "127.0.0.1", ""]
+
+[queue]
+size = 1000
